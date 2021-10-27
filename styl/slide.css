@@ -39,6 +39,12 @@
         margin-right: auto;
       }
 
+      @media(max-width: 680px){
+        .swiper{
+          width: 90%;
+        }
+      }
+
       .swiper-slide {
         background-size: cover;
         background-position: center;
