@@ -65,7 +65,7 @@ a {
 }
 @media (max-width: 800px) {
   .rght {
-    right: 1rem;
+    right: 0.3rem;
   }
   .lft {
    left: -1rem; 
@@ -437,6 +437,9 @@ a:not([href]):not([tabindex]) {
 #works h1 {
   margin-bottom: 0px;
 }
+#works a{
+  color: var(--blue-dark);
+}
 .bx-lnks-wrks{
   left: 0;
   position: absolute;
@@ -491,14 +494,22 @@ a:not([href]):not([tabindex]) {
 .fp-controlArrow.fp-prev {
   left: 23%;
 }
+@media (max-width: 740px){
+  .fp-controlArrow.fp-next {
+    right: 18%;
+  }
+  .fp-controlArrow.fp-prev {
+    left: 16%;
+  }
+}
 .bx-mr-wrks a{
   display: block;
   position: absolute;
   z-index: 4;
   font-size: 69px;
-  color: var(--blue-light);
+  color: var(--blue-light) !important;
   top: 25%;
-  right: 41%;
+  right: 56%;
 }
 #reactflix h1{
   margin-top: 0.2rem;
@@ -513,4 +524,16 @@ a:not([href]):not([tabindex]) {
   .container{
     width: 85%;
   }
+}
+#mtmidia h1{
+  margin-top: 0.4rem;
+}
+#igortec h1{
+  margin-top: 0rem;
+}
+#igortec p{
+  display: inline-block;
+}
+#igortec a{
+  margin-left: 10px;
 }
