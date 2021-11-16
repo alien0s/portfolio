@@ -46,9 +46,9 @@ a {
 }
 .lft>a {
   transform:rotate(-90deg);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   width: 7rem;
-  padding: 3.9rem 0 !important;
+  padding: 3.1rem 0 !important;
 }
 @media (max-width: 800px){
   .lft>a{
@@ -511,9 +511,12 @@ a:not([href]):not([tabindex]) {
   top: 25%;
   right: 56%;
 }
-#reactflix h1{
-  margin-top: 0.2rem;
+#reactflix h1, #login h1{
+  margin-top: -0.8rem;
   font-size: 2.5rem;
+}
+#login h1{
+  font-size: 3rem !important;
 }
 @media(max-width:700px){
   .container{
